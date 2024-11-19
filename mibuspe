@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Dónde estás, pe?</title>
+    <link rel="stylesheet" href="trampa.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #cdfcbf
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            font-size: 1rem;
+            text-align: center;
+            display: block;
+            padding: 0.8rem 1rem;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a ¿perdido?</h1>
+    </header>
+
+    <main>
+        <p>
+            Esta es una página simple que te ayudará a encontrar el bus más cercano o a obtener una referencia de cómo llegar a tu destino si estás perdido.
+        </p>
+    </main>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="introduccion.html">Introducción</a></li>
+            <li><a href="rutas.html">Rutas</a></li>
+            <li><a href="autos.html">Autos cercanos</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
